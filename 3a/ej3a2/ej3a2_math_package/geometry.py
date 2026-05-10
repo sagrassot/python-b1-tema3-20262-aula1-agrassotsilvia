@@ -11,7 +11,8 @@ def square_area(side_length: float) -> float:
     Returns:
     - float: the area of the square.
     """
-    # Write here your code
+    # Calcula Area del quadrat
+    return side_length * side_length
     pass
 
 
@@ -26,7 +27,8 @@ def rectangle_area(base_length: float, height: float) -> float:
     Returns:
     - float: the area of the rectangle.
     """
-    # Write here your code
+    # Calcula Area del rectangle
+    return base_length * height
     pass
 
 
@@ -41,7 +43,8 @@ def triangle_area(base_length: float, height: float) -> float:
     Returns:
     - float: the area of the triangle.
     """
-    # Write here your code
+    # Calcula Area del Triangle
+    return (base_length * height) / 2
     pass
 
 
@@ -55,5 +58,7 @@ def circle_area(radius: float) -> float:
     Returns:
     - float: the area of the circle
     """
-    # Write here your code
+    # Calcula àrea d'un cercle
+    import math
+    return math.pi * (radius ** 2)
     pass
